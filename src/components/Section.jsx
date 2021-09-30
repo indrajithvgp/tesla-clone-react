@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import MenuIcon from '@material-ui/icons/Menu';
 import Fade from 'react-reveal/Fade'
+import CloseIcon from '@material-ui/icons/Close';
 
 const Section = ({ title, description = undefined, background, rightBtn }) => {
   return (
@@ -34,7 +36,7 @@ export default Section;
 const Wrap = styled.div`
   width: 100vw;
   height: 100vh;
-  background: orange;
+  background: transparent;
   /* background-image: url("images/model-3.jpg"); */
   background-position: center;
   background-size: cover;
